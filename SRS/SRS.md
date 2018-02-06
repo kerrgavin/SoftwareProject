@@ -41,22 +41,20 @@
  
  
 
-#### 1.   Introduction
+#### 1.   Introduction <br /> This section of the Software Requirements Specification (SRS) will include a detailed explanation of the purpose and scope of this project. In addition, important definitions, acronyms and abbreviations will be provided, as well as, a list of references and a brief overview of the contents in the remainder of this document.
  
-This section of the Software Requirements Specification (SRS) will include a detailed explanation of the purpose and scope of this project. In addition, important definitions, acronyms and abbreviations will be provided, as well as, a list of references and a brief overview of the contents in the remainder of this document.
+#### 1.1   	Purpose
  
-	#### 1.1   	Purpose
+The purpose of this Software Requirements Specification (SRS) is to provide a detailed explanation of the requirements for the “Weather Website/Desktop Application”.
  
-	The purpose of this Software Requirements Specification (SRS) is to provide a detailed explanation of the requirements for the “Weather Website/Desktop Application”.
+#### 1.2   	Scope
  
-	#### 1.2   	Scope
- 
-	#### 1.3   	Definitions, Acronyms, and Abbreviations
+#### 1.3   	Definitions, Acronyms, and Abbreviations
  
  
-	#### 1.4   	References
+#### 1.4   	References
  
-	#### 1.5   	Overview
+#### 1.5   	Overview
  
  
  
