@@ -11,18 +11,18 @@
  
  
  
-<ol>
+<ol type="1">
 <li><h4>Introduction</h4><br>This section of the Software Requirements Specification (SRS) will include a detailed explanation of the purpose and scope of this project. In addition, important definitions, acronyms and abbreviations will be provided, as well as, a list of references and a brief overview of the contents in the remainder of this document.</li>
 	<ol type="1">
     <li><h4>Purpose</h4><br>The purpose of this Software Requirements Specification (SRS) is to provide a detailed explanation of the requirements for the “Weather Website/Desktop Application”.</li>
-	<li><h4>Scope</h4><br></li>
+	<li><h4>Scope</h4></li>
  
-    <li><h4>Definitions, Acronyms, and Abbreviations</h4><br></li>
+    <li><h4>Definitions, Acronyms, and Abbreviations</h4></li>
  
  
-    <li><h4>References</h4><br></li>
+    <li><h4>References</h4></li>
  
-    <li><h4>Overview</h4><br></li>
+    <li><h4>Overview</h4></li>
 	</ol>
  
 </ol>
