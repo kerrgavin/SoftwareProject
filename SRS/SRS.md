@@ -8,12 +8,28 @@
 ## Table of Contents
 #### 1.   Introduction<br>1.1         Purpose<br>1.2         Scope<br>1.3         Definitions, Acronyms, and Abbreviations<br>1.4         References<br>2.   Overall Description<br>2.1         Product Perspective<br>2.2         Product functions<br>2.3         User Characteristics<br>2.4         Constraints<br>2.5         Assumptions and dependencies<br>2.6         Apportioning of Requirements<br>3.   Specific Requirements<br>3.1         Interfaces<br>3.1.1    User<br>3.1.2    Hardware<br>3.1.3    Software<br>3.1.4    Communication<br>3.2         Functional Requirements<br>3.3         Performance Requirements<br>3.4         Design constraints<br>3.5         Software system attributes<br>4.   Prioritization and Release Plan<br>4.1         Choice of Prioritization Method<br>5.   Appendices<br>5.1         Appendix I<br>5.2         Appendix II<br>5.3         Appendix III<br>5.4         Appendix IV<br>5.5         Appendix V
  
+<style>
+ol {
+    counter-reset: item;
+}
+
+ol > li {
+    counter-increment: item;
+}
+
+ol ol > li {
+    display: block;
+}
+
+ol ol > li:before {
+    content: counters(item, ".") ". ";
+    margin-left: -20px;
+}
+</style>
  
- 
- 
-<ol type="1">
+<ol>
 <li><h4>Introduction</h4>This section of the Software Requirements Specification (SRS) will include a detailed explanation of the purpose and scope of this project. In addition, important definitions, acronyms and abbreviations will be provided, as well as, a list of references and a brief overview of the contents in the remainder of this document.</li>
-	<ol type="1">
+	<ol>
     <li><h4>Purpose</h4>The purpose of this Software Requirements Specification (SRS) is to provide a detailed explanation of the requirements for the “Weather Website/Desktop Application”.</li>
 	<li><h4>Scope</h4></li>
     <li><h4>Definitions, Acronyms, and Abbreviations</h4></li>
