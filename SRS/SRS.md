@@ -16,15 +16,10 @@
 	<ol type="1">
     <li><h4>Purpose</h4><br>The purpose of this Software Requirements Specification (SRS) is to provide a detailed explanation of the requirements for the “Weather Website/Desktop Application”.</li>
 	<li><h4>Scope</h4></li>
- 
     <li><h4>Definitions, Acronyms, and Abbreviations</h4></li>
- 
- 
     <li><h4>References</h4></li>
- 
     <li><h4>Overview</h4></li>
 	</ol>
- 
 </ol>
  
  
