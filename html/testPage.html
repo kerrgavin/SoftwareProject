@@ -1,66 +1,162 @@
 <html>
+
 <head>
-<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.6.2.min.js"></script>
-<script src="search.js"></script>
-<style>
-input[type=text] {
-	width: 250px;
-	padding: 12px 20px;
-	margin: 8px 0;
-	box-sizing: border-box;
-	border: 3px solid #ccc;
-	-webkit-transition: 0.5s;
-	transition: 0.5s;
-	outline: none;
-}
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.6.2.min.js"></script>
+	<script src="search.js"></script>
+	<style>
+		html {
+			height: 100%;
+			box-sizing: border-box;
+			background-color: rgb(173, 173, 173);
+		}
 
-input[type=text]:focus {
-	border: 3px solid #555;
-}
+		* {
+			box-sizing: inherit;
+		}
 
-input[type=submit] {
-	background-color: rgba(126, 215, 99, 0.65);
-	color: black;
-	padding: 12px 20px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	-webkit-transition-duration: 0.4s;
-	transition-duration: 0.4s;
-	cursor: pointer;
-	border: 2px solid #555555;
-}
+		body {
+			position: relative;
+			background-color: rgb(173, 173, 173);
+			padding-bottom: 180px;
+			min-height: 100%;
+		}
 
-input[type=submit]:hover {
-	background-color: #555555;
-	color: white;
-}
-</style>
+		header {
+			text-align: center;
+			padding: 0.5px 5px;
+			background-color: rgb(16, 63, 172);
+			color: white;
+
+		}
+
+		footer {
+			position: absolute;
+			text-align: center;
+			right: 0;
+	  	bottom: 0;
+  		left: 0;
+			padding: 0.5px 5px;
+			background-color: rgb(16, 63, 172);
+			color: white;
+		}
+
+		#input {
+			float: left;
+			display: block;
+			width: 23%;
+			margin: 15px 15px;
+		}
+
+		#top {
+			padding: 5px 5px;
+			border-style: solid;
+			border-color: rgb(16, 63, 172);
+			background-color: rgb(16, 63, 172);
+			color: white;
+			border-top-right-radius: 8px;
+			border-top-left-radius: 8px;
+		}
+
+		#bottom {
+			padding: 5px 5px;
+			border-style: solid;
+			background-color: white;
+			border-color: rgb(16, 63, 172);
+			border-bottom-right-radius: 8px;
+			border-bottom-left-radius: 8px;
+		}
+
+		#info {
+			width: 75%;
+			display: block;
+			margin: 15px 15px 15px 25%;
+
+		}
+
+		#i {
+			width: inherit;
+			padding: 0.5px 5px;
+			border-style: solid;
+			background-color: white;
+			border-color: rgb(16, 63, 172);
+			border-radius: 8px;
+		}
+
+		#icon {
+			width: 50px;
+			height: 50px;
+		}
+
+		input[type=text] {
+			width: 250px;
+			padding: 12px 20px;
+			margin: 8px 0;
+			box-sizing: border-box;
+			border: 3px solid #ccc;
+			-webkit-transition: 0.5s;
+			transition: 0.5s;
+			outline: none;
+		}
+
+		input[type=text]:focus {
+			border: 3px solid rgb(16, 63, 172);
+		}
+
+		input[type=submit] {
+			background-color: white;
+			color: black;
+			padding: 12px 20px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			-webkit-transition-duration: 0.4s;
+			transition-duration: 0.4s;
+			cursor: pointer;
+			border: 2px solid rgb(16, 63, 172);
+		}
+
+		input[type=submit]:hover {
+			background-color: rgb(16, 63, 172);
+			color: white;
+		}
+	</style>
 </head>
 
+
+
 <body>
-<form>
-	<label for="loc">Location</label>
-	<br>
-	<input type="text" id="loc" name="loc" placeholder="e.g. Columbus">
-	<br>
-	<input type="text" id="state" name="state" placeholder="e.g. GA">
-	<br>
-	<input type="radio" name="choice" id="currentCond" value="currentCond" checked> Current Condition
-	<input type="radio" name="choice" id="almanac" value="almanac"> Almanac
-	<input type="radio" name="choice" id="3Day" value="3Day"> 3-Day Forecast
-	<input type="radio" name="choice" id="astronomy" value="astronomy"> Astronomy
-	<input type="radio" name="choice" id="geo" value="geo"> Geolookup
-	<br>
-	<input type="submit" id="sub" value="Submit">
-</form>
+	<header>
+		<h1>Weather App Software Project</h1>
+	</header>
+	<section id="input">
+		<form>
+			<section id="top">
+				<label id="l" for="loc">Location</label>
+			</section>
+			<section id="bottom">
+				<input type="text" id="loc" name="loc" placeholder="e.g. Columbus">
+				<br>
+				<input type="text" id="state" name="state" placeholder="e.g. GA">
+				<br>
+				<input type="radio" name="choice" id="currentCond" value="currentCond" checked> Current Condition
+				<br>
+				<input type="radio" name="choice" id="almanac" value="almanac"> Almanac
+				<br>
+				<input type="radio" name="choice" id="3Day" value="3Day"> 3-Day Forecast
+				<br>
+				<input type="radio" name="choice" id="astronomy" value="astronomy"> Astronomy
+				<br>
+				<input type="radio" name="choice" id="geo" value="geo"> Geolookup
+				<br>
+				<input type="submit" id="sub" value="Submit">
+			</section>
+		</form>
+	</section>
 
-<section id="info">
-</section>
-
-<section id="test">
-
-</section>
+	<section id="info">
+	</section>
+<footer>Copyright &copy Tyerra Smith/Olivia Horace/Gavin Kerr</footer>
 </body>
 
-</html
+
+</html>

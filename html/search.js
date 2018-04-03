@@ -12,10 +12,10 @@ $(document).ready(function(){
          } else {
 
             $('#info').html("<h2 class='loading'>Getting your info!</h2>" + document.getElementById("currentCond").checked);
-			
+
 			if(document.getElementById("currentCond").checked) {
 				$.getJSON("currentConditions.php?name=" + loc + "&state="+state, function(json) {
-					$('#info').html('<h2 class="loading">Got it!</h2><p>' + json.current_observation.display_location.full + "<br>" + json.current_observation.temperature_string + '</p><img src='+ json.current_observation.icon_url+' alt='+json.current_observation.icon+' style="width:500px;height:600px;">');
+					$('#info').html('<section id="i"><h2 class="loading">' + json.current_observation.display_location.full + '</h2><p><img id="icon" src='+ json.current_observation.icon_url+' alt='+json.current_observation.icon+' >' + json.current_observation.temperature_string + '</p></section>');
 				});
 			} else if(document.getElementById("almanac").checked) {
 				$.getJSON("almanac.php?name=" + loc + "&state="+state, function(json) {
@@ -43,7 +43,7 @@ $(document).ready(function(){
    $('#sub').click(getInfo);
    $('#loc').keyup(function(event){
        if(event.keyCode == 13){
-           getPoster();
+           getInfo();
        }
    });
 
