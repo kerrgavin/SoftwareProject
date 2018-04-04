@@ -11,7 +11,7 @@ $(document).ready(function(){
 
          } else {
 
-            $('#info').html("<h2 class='loading'>Getting your info!</h2>" + document.getElementById("currentCond").checked);
+            $('#info').html("<img src='giphy.webp'>");
 
 			if(document.getElementById("currentCond").checked) {
 				$.getJSON("currentConditions.php?name=" + loc + "&state="+state, function(json) {
