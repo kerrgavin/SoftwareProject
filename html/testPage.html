@@ -134,9 +134,10 @@
 				<label id="l" for="loc">Location</label>
 			</section>
 			<section id="bottom">
-				<input type="text" id="loc" name="loc" placeholder="e.g. Columbus">
-				<br>
-				<input type="text" id="state" name="state" placeholder="e.g. GA">
+				<input list="places" type="text" id="loc" name="loc" placeholder="e.g. Columbus, Ga">
+				<datalist id="places">
+					<option value = "Test optoin">
+				</datalist>
 				<br>
 				<input type="radio" name="choice" id="currentCond" value="currentCond" checked> Current Condition
 				<br>
