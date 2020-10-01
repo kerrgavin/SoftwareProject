@@ -1,2 +1,2 @@
-# SoftwareProject
-*test*
+# Software Project
+*testing*
